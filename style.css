@@ -1,0 +1,32 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.content {
+  margin: auto;
+  display: grid;
+  grid-template-rows: repeat(10, 50px);
+  grid-template-columns: repeat(10, 50px);
+  grid-gap: 0px;
+}
+
+.mine {
+ background: red; 
+}
+
+.cell {
+  background: #EFEFEF;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-size: 40px;
+}
